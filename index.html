@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#26103d">
+  <meta name="description" content="Lucas & Sophia — a romantic wedding invitation">
+  <title>Lucas & Sophia — Wedding Invitation</title>
+  <link rel="icon" href="assets/dreamsinvite-logo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="loader" class="loader">
+    <div class="loader-card">
+      <img src="assets/gift-box.png" alt="Wedding gift box" class="gift">
+      <p class="eyebrow">A special invitation</p>
+      <h1>Lucas <span>&</span> Sophia</h1>
+      <button id="openBtn" class="gold-btn">Open Invitation</button>
+      <p class="hint">Tap to begin</p>
+    </div>
+  </div>
+
+  <button id="musicBtn" class="music-btn" aria-label="Play background music">♫</button>
+  <audio id="music" loop preload="auto">
+    <source src="assets/love_me_like_you_do.mp3" type="audio/mpeg">
+  </audio>
+
+  <main>
+    <section class="hero reveal">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Together with their families</p>
+        <h1>Lucas <i>&</i> Sophia</h1>
+        <p class="subtitle">invite you to celebrate their wedding</p>
+        <div class="ornament">✦ ───── ❦ ───── ✦</div>
+        <p class="date">SAVE THE DATE</p>
+        <p class="date-big">18 · 12 · 2026</p>
+        <a href="#story" class="scroll">Scroll to discover <span>↓</span></a>
+      </div>
+    </section>
+
+    <section id="story" class="section paper reveal">
+      <p class="eyebrow">Our Story</p>
+      <h2>Two hearts, one beautiful journey</h2>
+      <div class="divider">❦</div>
+      <p class="lead">
+        Some stories begin with a glance, some with a conversation.
+        Ours began quietly and became the most beautiful chapter of our lives.
+        Now we would love for you to be part of the next chapter.
+      </p>
+      <div class="story-grid">
+        <div><span>01</span><h3>The Beginning</h3><p>A chance meeting that became a friendship, and a friendship that became something much more.</p></div>
+        <div><span>02</span><h3>The Journey</h3><p>Countless memories, laughter, adventures and moments that brought two families together.</p></div>
+        <div><span>03</span><h3>The Forever</h3><p>With grateful hearts, we are ready to begin forever — surrounded by the people we love.</p></div>
+      </div>
+    </section>
+
+    <section class="section dark reveal">
+      <p class="eyebrow">The Celebration</p>
+      <h2>Join us for our special moments</h2>
+      <div class="events">
+        <article class="event">
+          <div class="event-icon">✦</div>
+          <p class="event-day">FRIDAY · 18 DECEMBER</p>
+          <h3>Wedding Ceremony</h3>
+          <p>5:00 PM onwards</p>
+          <p class="venue">The Grand Celebration<br>New Delhi, India</p>
+          <a class="text-link" href="#rsvp">RSVP ↓</a>
+        </article>
+        <article class="event">
+          <div class="event-icon">❦</div>
+          <p class="event-day">FRIDAY · 18 DECEMBER</p>
+          <h3>Reception</h3>
+          <p>7:30 PM onwards</p>
+          <p class="venue">The Grand Celebration<br>New Delhi, India</p>
+          <a class="text-link" href="#rsvp">RSVP ↓</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section countdown-section reveal">
+      <p class="eyebrow">Counting the moments</p>
+      <h2>Until we say “I do”</h2>
+      <div id="countdown" class="countdown">
+        <div><strong id="days">00</strong><span>Days</span></div>
+        <div><strong id="hours">00</strong><span>Hours</span></div>
+        <div><strong id="minutes">00</strong><span>Minutes</span></div>
+        <div><strong id="seconds">00</strong><span>Seconds</span></div>
+      </div>
+    </section>
+
+    <section class="section gallery reveal">
+      <p class="eyebrow">Memories</p>
+      <h2>A little glimpse of us</h2>
+      <div class="gallery-grid">
+        <div class="photo photo-1"><span>Our<br>beginning</span></div>
+        <div class="photo photo-2"><span>Beautiful<br>moments</span></div>
+        <div class="photo photo-3"><span>Forever<br>starts here</span></div>
+      </div>
+      <p class="gallery-note">Replace these three panels with your own photographs in the <code>assets</code> folder.</p>
+    </section>
+
+    <section id="rsvp" class="section rsvp reveal">
+      <p class="eyebrow">We would be honoured</p>
+      <h2>To have you with us</h2>
+      <p class="lead">Your presence is the greatest gift. Please let us know if you can join our celebration.</p>
+      <a class="gold-btn" href="mailto:your-email@example.com?subject=Lucas%20%26%20Sophia%20Wedding%20RSVP">Confirm Attendance</a>
+      <div class="map-card">
+        <strong>The Grand Celebration</strong>
+        <span>New Delhi, India</span>
+        <a href="https://maps.google.com/?q=New+Delhi,India" target="_blank" rel="noopener">Open in Google Maps ↗</a>
+      </div>
+    </section>
+
+    <footer>
+      <img src="assets/dreamsinvite-logo.png" alt="DreamsInvite" class="footer-logo">
+      <p>With love, Lucas & Sophia</p>
+      <small>Made with love · 2026</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
